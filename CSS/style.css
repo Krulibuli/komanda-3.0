@@ -177,6 +177,10 @@ header{
     pointer-events: none;
 }
 
+h1{
+    color: black;
+}
+
 /* ===== TABLE size 768-1024 =====  */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
