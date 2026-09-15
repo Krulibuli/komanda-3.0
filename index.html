@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komanda 3.0</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1></h1>
+    <header>
+        <a href="#">
+            <img src="img/logo.svg" alt="myteam logo" class="logo">
+        </a>
+
+        <nav>
+            <!-- Desktop links -->
+            <ul class="nav-link">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+
+            <button class="hamburger-icon" id="hamburgerBtn" popovertarget="sidebar" aria-label="Open menu">
+                <img src="img/icon-hamburger.svg" alt="Hamburger menu icon">
+            </button>
+
+            <!-- #sidebar - for mobile device -->
+            <div id="sidebar" class="sidebar" popover>
+                <button class="close-icon" popovertarget="sidebar" popovertargetaction="hide" aria-label="Close menu">
+                    <img src="img/icon-close.svg" alt="Close menu icon">
+                </button>
+
+                <ul class="sidebar-menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a class="cta" href="#">contact us</a></li>
+                </ul>
+
+                <img src="img/bg-pattern-about-1-mobile-nav-1.svg" alt="Sidebar pattern mobile navigation icon" aria-hidden="true" class="sidebar-pattern">
+            </div>
+        </nav>
+
+        <a class="cta desktop-cta" href="#">contact us</a>
+    </header>
+
+    <script>
+        // ===== CLOSE MENU WHEN CLICK LINK =====
+        document.querySelectorAll('.sidebar-menu a').forEach(link =>
+            link.addEventListener('click', () => document.getElementById('sidebar').hidePopover())
+        );
+        
+        // Auto close menu when it's change size
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                const sidebar = document.getElementById('sidebar');
+                if (sidebar.matches(':popover-open')) {
+                    sidebar.hidePopover();
+                }
+            }
+        });
+    </script>
 </body>
 </html>
