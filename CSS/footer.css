@@ -1,60 +1,68 @@
 @import url(style.css);
+
 /* Footer */
-footer{
+footer {
     background-color: var(--secondary-dark_green);
     height: 12.25rem;
     position: absolute;
     width: 100%;
 }
-.footerMain{
+
+.footerMain {
     display: flex;
     margin: 3rem 10.313rem;
     height: 6.25rem;
     font-size: 0.938rem;
-    line-height: 1.563rem; 
+    line-height: 1.563rem;
 }
 
 /* Footer col 1 */
-.footerCol1{
+.footerCol1 {
     width: 10rem;
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: var(--primary-white);
 }
-.footerCol1Links{
+
+.footerCol1Links {
     display: flex;
 }
-.footerCol1 a{
+
+.footerCol1 a {
     margin: 1.563rem 0 0.438rem;
     color: var(--primary-white);
     text-decoration: none;
 }
-.footerCol1 a:first-child{
+
+.footerCol1 a:first-child {
     margin-right: 2.5rem;
 }
 
 /* Footer col 2 */
-.footerCol2{
-    margin: 0 0 0 7.813rem  ;
-    color: var(--primary-white); 
+.footerCol2 {
+    margin: 0 0 0 7.813rem;
+    color: var(--primary-white);
     opacity: 0.6;
 }
 
- /* Footer col 3 */
-.footerCol3{
+/* Footer col 3 */
+.footerCol3 {
     margin-left: auto;
     color: var(--primary-white);
     width: 16.25rem;
 }
-.footerCol3 p{
+
+.footerCol3 p {
     text-align: end;
     opacity: 0.6;
-    margin-top: 3.188rem; 
+    margin-top: 3.188rem;
 }
-.footerIcons{
+
+.footerIcons {
     display: flex;
     justify-content: end;
 }
-.footerIcon{
+
+.footerIcon {
     margin-left: 16px;
-} 
+}
