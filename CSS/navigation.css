@@ -1,0 +1,54 @@
+@import url(style.css);
+
+/* NAVIGATION */
+
+ul {
+  list-style: none;
+}
+
+li, a, button {
+  color: var(--primary-white);
+  text-decoration: none;
+  transition: 500ms ease;
+}
+li > a:hover {
+  color: var(--primary-light_coral);
+}
+
+header, main, footer {
+  padding: 0 10.313rem;
+}
+
+header {
+  padding-top: 4.688rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-midnight_green);
+}
+
+.logo {
+  cursor: pointer;
+  padding: 0 1.938rem 0 0;
+}
+
+.cta {
+  margin-left: auto;
+  display: inline-block;
+  border: 2px solid var(--primary-white);
+  border-radius: 3.125rem;
+  padding: 0.563rem 2rem;
+}
+.cta:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-midnight_green);
+}
+.desktop-cta.disabled {
+  pointer-events: none;
+  color: var(--secondary-sacramento_state_green);
+  border: 2px solid var(--secondary-sacramento_state_green);
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0 0 0 3.063rem;
+}
