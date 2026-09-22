@@ -28,3 +28,9 @@
     color: var(--secondary-dark_green);
     border: 1px solid var(--secondary-dark_green);
 }
+.contactUsBox button:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: var(--secondary-dark_green);
+    color: var(--primary-white);
+}
