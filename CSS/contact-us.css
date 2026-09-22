@@ -1,0 +1,21 @@
+@import url(style.css);
+
+.contactUsBox{
+    background-color: var(--primary-light_coral);
+    height: 12.5rem;
+    display: flex;
+}
+.contactUsBox img{
+    margin-top: auto;
+    height: 9rem;
+}
+.contactUsText{
+    display: flex;
+    margin: 4rem 0 0 4rem;
+}
+.contactUsText p{
+    font-size: 4rem;
+}
+.contactUsBox button{
+    height: 5rem;
+}
