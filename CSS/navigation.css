@@ -6,16 +6,21 @@ ul {
   list-style: none;
 }
 
-li, a, button {
+li,
+a,
+button {
   color: var(--primary-white);
   text-decoration: none;
   transition: 500ms ease;
 }
-li > a:hover {
+
+li>a:hover {
   color: var(--primary-light_coral);
 }
 
-header, main, footer {
+header,
+main,
+footer {
   max-width: 1440px;
   padding: 0 10.313rem;
 }
@@ -39,10 +44,12 @@ header {
   border-radius: 3.125rem;
   padding: 0.563rem 2rem;
 }
+
 .cta:hover {
   background-color: var(--primary-white);
   color: var(--primary-midnight_green);
 }
+
 .desktop-cta.disabled {
   pointer-events: none;
   color: var(--secondary-sacramento_state_green);
