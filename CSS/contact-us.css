@@ -1,26 +1,34 @@
 @import url(style.css);
 
-.contactUsBox{
+.contactUsBox {
     background-color: var(--primary-light_coral);
     height: 12.5rem;
     display: flex;
+    width: 90rem;
 }
-.contactUsBox img{
+
+.contactUsBox img {
     margin-top: auto;
     height: 9rem;
 }
-.contactUsText{
+
+.contactUsText {
     display: flex;
     margin: 4.5rem 0 0 4rem;
     color: var(--secondary-dark_green);
 
 }
-.contactUsText p{
+
+.contactUsText p {
     font-size: 3rem;
 }
-.contactUsBox button{
+
+.contactUsBox a {
+    padding-left: 2rem;
+    align-content: center;
+    text-decoration: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 1.16rem;
     border-radius: 64px;
     height: 3.25rem;
     width: 9.7rem;
@@ -28,7 +36,8 @@
     color: var(--secondary-dark_green);
     border: 1px solid var(--secondary-dark_green);
 }
-.contactUsBox button:hover{
+
+.contactUsBox a:hover {
     transition: 0.3s;
     cursor: pointer;
     background-color: var(--secondary-dark_green);
