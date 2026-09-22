@@ -52,11 +52,10 @@ footer {
 .footerCol3 {
     margin-left: auto;
     color: var(--primary-white);
-    width: 16.25rem;
 }
 
 .footerCol3 p {
-    text-align: end;
+    font-size: 0.93rem;
     opacity: 0.6;
     margin-top: 3.188rem;
 }
