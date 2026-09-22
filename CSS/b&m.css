@@ -1,0 +1,43 @@
+@import url(style.css);
+
+main{
+    max-width: 1440px;
+}
+.bm-sec{
+    background-color: var(--secondary-sacramento_state_green);
+    min-height: 684px;
+}
+.bm-con{
+    display: flex;
+    padding-top: 156px;
+    padding-left: 165px;
+    height: 404px;
+    width: 1110px;
+}
+.bm-con h2, .bm-con p{
+    color: var(--primary-white);
+}
+.bm-con h3{
+    color: var(--primary-light_coral);
+}
+.bm-h2{
+    padding-top: 42px;
+    width: 445px;
+    height: 202px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.bm-cons{
+    padding-left: 146px;
+    height: 346px;
+    width: 540px;
+}
+.bm-boxes{
+    padding-top: 46px;
+    display: flex;
+}
+.bm-boxes img{
+    height: 72px;
+    width: 72px;
+}   
