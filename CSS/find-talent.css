@@ -5,7 +5,7 @@ main{
     max-width: 1440px;
     height: 700px;
 }
-body{
+.bestTalent{
     background-color: var(--primary-midnight_green);
 }
 .logo h1{
@@ -14,22 +14,21 @@ body{
 }
 .logo span{
     color: var(--primary-light_coral);
-    letter-spacing: 6px;
 }
 .main-text{
     color: var(--primary-white);
     position: relative;
     left: 830px;
-    font-size: 18px 22px;
+    font-size: 18px;
     top: 13px;
-    word-spacing: 5px;
-    line-height: 1.8;
+    word-spacing: 0px;
+    line-height: 28px;
     
 }
 .logo{
     position: relative;
     left: 165px;
-    top: 132px;
+    top: 129px;
     line-height: 1;
 }
 .main-text::before {
@@ -40,4 +39,14 @@ body{
   width: 50px;              
   height: 4px;              
   background-color: var(--secondary-rapture_blue); 
+}
+.pattern-1{
+    position: relative;
+    left: -100px;
+    bottom: 183px;
+}
+.pattern-2{
+    position: relative;
+    left: 917px;
+    bottom: 37px;
 }
