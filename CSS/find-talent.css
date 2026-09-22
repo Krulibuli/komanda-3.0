@@ -1,21 +1,24 @@
 @import url(style.css);
 
 /* Scrum-5 */
-main{
+main {
     max-width: 1440px;
-    height: 700px;
 }
-.bestTalent{
+
+.bestTalent {
     background-color: var(--primary-midnight_green);
 }
-.logo h1{
+
+.logo h1 {
     color: var(--primary-white);
     font-size: 100px;
 }
-.logo span{
+
+.logo span {
     color: var(--primary-light_coral);
 }
-.main-text{
+
+.main-text {
     color: var(--primary-white);
     position: relative;
     left: 830px;
@@ -23,29 +26,33 @@ main{
     top: 13px;
     word-spacing: 0px;
     line-height: 28px;
-    
+
 }
-.logo{
+
+.logo {
     position: relative;
     left: 165px;
     top: 129px;
     line-height: 1;
 }
+
 .main-text::before {
-  content: "";
-  position: absolute;
-  top: -84px;                 
-  left: 0;                   
-  width: 50px;              
-  height: 4px;              
-  background-color: var(--secondary-rapture_blue); 
+    content: "";
+    position: absolute;
+    top: -84px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--secondary-rapture_blue);
 }
-.pattern-1{
+
+.pattern-1 {
     position: relative;
     left: -100px;
     bottom: 183px;
 }
-.pattern-2{
+
+.pattern-2 {
     position: relative;
     left: 917px;
     bottom: 37px;
