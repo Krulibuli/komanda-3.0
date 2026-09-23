@@ -1,3 +1,11 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* Colors */
 :root {
     --primary-midnight_green: #014E56;
@@ -9,13 +17,7 @@
     --secondary-sacramento_state_green: #012F34;
     --secondary-dark_green: #002529;
 }
-/* Global reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-}
+
 /* Livic Font */
 .livvic-thin {
     font-family: "Livvic", sans-serif;
