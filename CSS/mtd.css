@@ -1,7 +1,7 @@
 @import url(style.css);
 
 .mtdBox{
-    height: 62.6rem;
+    height: 63.15rem;
     background-color: var(--secondary-deep_jungle_ocean);
 }
 .mtdInfoBox{
@@ -9,19 +9,28 @@
     display: flex;
     flex-wrap: wrap;
 }
-#mtdBoxImg{
+#mtdBoxImg1{
     left: -6.25rem;
+    top: 0.1rem;
+    overflow: hidden;
+    position: absolute;
+}
+#mtdBoxImg2{
+    bottom: 39.4rem;
+    right: 8rem;
     overflow: hidden;
     position: absolute;
 }
 #mtdBoxText{
+    color: var(--primary-white);
     text-align: center;
     margin-top: -0.5rem;
     font-size: 3.09rem;
 }
 .mtdCardImg{
+    border: 3px solid var(--secondary-rapture_blue);
     margin: 2rem 0 0 8rem;
-    height: 6rem;
+    height: 6.1rem;
     border-radius: 64px;
 }
 .mtdCard{
