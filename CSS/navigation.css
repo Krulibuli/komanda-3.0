@@ -25,16 +25,16 @@ footer {
 }
 
 header {
-  padding: 73px 10.313rem 0 10.313rem;
+  padding: 4.563rem 10.313rem 0 10.313rem;
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   background-color: var(--primary-midnight_green);
 }
 
 .logo {
   cursor: pointer;
-  padding: 0 80px 0 0;
+  padding: 0 5rem 0 0;
 }
 
 .cta {
@@ -58,5 +58,5 @@ header {
 
 .nav-link li {
   display: inline-block;
-  padding: 0 36px 0 0;
+  padding: 0 2.25rem 0 0;
 }
