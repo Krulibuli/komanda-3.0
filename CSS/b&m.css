@@ -1,0 +1,83 @@
+@import url(style.css);
+
+main {
+    max-width: 1440px;
+}
+
+.bm-sec {
+    background-color: var(--secondary-sacramento_state_green);
+    min-height: 684px;
+    background-image: url(../assets/pattern/bg-pattern-home-3.svg);
+    background-repeat: no-repeat;
+    background-position: 108.09% 100%;
+}
+
+.bm-con {
+    display: flex;
+    padding-top: 156px;
+    padding-left: 165px;
+    height: 404px;
+    width: 1410px;
+}
+
+.bm-con h2,
+.bm-con p {
+    color: var(--primary-white);
+}
+
+.bm-con h3 {
+    color: var(--primary-light_coral);
+}
+
+.bm-line {
+    border-top: 3.5px solid var(--primary-light_coral);
+    margin-top: -16px;
+    padding-bottom: 55px;
+    width: 50px;
+}
+
+.bm-h2 {
+    width: 445px;
+    height: 202px;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.bm-cons {
+    padding-left: 125px;
+    height: 346px;
+    width: 720px;
+}
+
+.bm-boxes {
+    display: flex;
+}
+
+.bm-text {
+    padding-left: 23px;
+    padding-top: 2px;
+}
+
+.bm-text h3 {
+    padding-bottom: 19px;
+    font-size: 18px;
+}
+
+.bm-text p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.bm-box-1 {
+    padding-top: 42px;
+}
+
+.bm-box-2,
+.bm-box-3 {
+    padding-top: 32px;
+}
+
+.bm-boxes img {
+    height: 72px;
+    width: 72px;
+}
