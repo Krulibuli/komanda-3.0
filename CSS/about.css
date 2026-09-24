@@ -1,0 +1,12 @@
+@import url(style.css);
+.aboutbox {
+    max-width: 1440px;
+    height: 396px;
+    background-color: var(--primary-midnight_green);
+    display: flex;
+    justify-content: center;
+}
+.aboutboxImg{
+    width: 200px;
+    height: 200px;
+}
