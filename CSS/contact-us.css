@@ -24,17 +24,17 @@
 }
 
 .contactUsBox a {
-    padding-left: 2rem;
+    padding-left: 1.8rem;
     align-content: center;
     text-decoration: none;
     background-color: transparent;
-    font-size: 1.16rem;
+    font-size: 1.1rem;
     border-radius: 64px;
-    height: 3.25rem;
-    width: 9.7rem;
-    margin: 0.1rem 0 0 16rem;
+    height: 3.09rem;
+    width: 9.5rem;
+    margin: 0.2rem 0 0 16.3rem;
     color: var(--secondary-dark_green);
-    border: 1px solid var(--secondary-dark_green);
+    border: 2px solid var(--secondary-dark_green);
 }
 
 .contactUsBox a:hover {
