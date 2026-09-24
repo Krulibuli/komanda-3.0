@@ -1,0 +1,35 @@
+@import url(style.css);
+
+.mtdBox{
+    height: 62.6rem;
+    background-color: var(--secondary-deep_jungle_ocean);
+}
+.mtdInfoBox{
+    margin-left: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mtdBoxImg{
+    left: -6.25rem;
+    overflow: hidden;
+    position: absolute;
+}
+#mtdBoxText{
+    text-align: center;
+    margin-top: -0.5rem;
+    font-size: 3.09rem;
+}
+.mtdCardImg{
+    height: 6rem;
+    border-radius: 64px;
+}
+.mtdCard{
+    background-color: var(--secondary-sacramento_state_green);
+    height: 10rem;
+}
+.mtdCardName{
+    text-align: center;
+}
+.mtdCardRole{
+    text-align: center;
+}
