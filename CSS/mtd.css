@@ -44,3 +44,6 @@
     text-align: center;
     color: var(--primary-white);
 }
+.mtdButton{
+    margin: 3rem 0 0 10.6rem;
+}
