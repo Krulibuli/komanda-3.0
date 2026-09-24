@@ -22,11 +22,10 @@ header,
 main,
 footer {
   max-width: 1440px;
-  padding: 0 10.313rem;
 }
 
 header {
-  padding-top: 73px;
+  padding: 73px 10.313rem 0 10.313rem;
   display: flex;
   align-items: center;
   font-size: 18px;
