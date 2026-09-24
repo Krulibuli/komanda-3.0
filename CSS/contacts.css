@@ -3,7 +3,7 @@
 .contacts {
     display: flex;
     flex-direction: row;
-    padding: 120px 165px;
+    padding: 130px 165px 103px 165px;
     background-color: var(--primary-midnight_green);
     max-width: 1440px;
 }
