@@ -1,12 +1,13 @@
+/* Scrum-5 */
 @import url(style.css);
 
-/* Scrum-5 */
 main {
     max-width: 1440px;
 }
 
 .bestTalent {
     background-color: var(--primary-midnight_green);
+    max-height: 579px;
 }
 
 .logo h1 {
