@@ -22,7 +22,7 @@
 
 .ask-us-about h2 {
     margin-top: 0.625rem;
-    min-width: 540px;
+    min-width: 477px;
     min-height: 64px;
     font-size: 32px;
     color: var(--primary-light_coral);
@@ -77,3 +77,53 @@
     display: flex;
     flex-direction: row;
 }
+
+.contact-form {
+    letter-spacing: -0.12px;
+    margin-top: -34px;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+form 
+input, 
+textarea {
+    color: var(--primary-white);
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-white);
+}
+
+#name,
+#email,
+#cName,
+#title{
+    width: 540px;
+    height: 42px;
+    font-size: 15px;
+    margin-top: 24px;
+    padding-left: 16px;
+    padding-bottom: 13px;
+}
+
+textarea {
+    width: 540px;
+    height: 83px;
+    resize: none;
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin: none;
+    padding-left: 16px;
+    margin-top: 24px;
+}
+
+#button {
+    background-color: var(--primary-white);
+    color: var(--primary-midnight_green);
+    margin-top: 24px;
+    padding: 12px 34px;
+    border-radius: 3.125rem;
+    font-size: 18px;
+}
+
