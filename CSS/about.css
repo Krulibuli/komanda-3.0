@@ -1,12 +1,31 @@
 @import url(style.css);
 .aboutbox {
+    background-image: url(../assets/pattern/bg-pattern-about-1-mobile-nav-1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 108.09% 100%;
+
     max-width: 1440px;
+    padding: 0 0 0 165px;
     height: 396px;
     background-color: var(--primary-midnight_green);
+    color: var(--primary-white);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-.aboutboxImg{
-    width: 200px;
-    height: 200px;
+h1{
+    padding: 0 0 58px 0;
+    font-size: 64px;
+}
+.aboutp{
+    padding: 40px 191px 0 191px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.about-line{
+    margin: 0 0 0 191px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--primary-light_coral);
 }
