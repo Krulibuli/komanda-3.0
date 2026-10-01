@@ -1,0 +1,78 @@
+@import url(style.css);
+
+.mtdBox {
+    height: 63.15rem;
+    background-color: var(--secondary-deep_jungle_ocean);
+}
+
+.mtdInfoBox {
+    margin-left: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mtdBoxImg1 {
+    left: -6.25rem;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#mtdBoxImg2 {
+    top: 50.8rem;
+    left: 68.1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#mtdBoxText {
+    color: var(--primary-white);
+    text-align: center;
+    margin-top: -0.5rem;
+    font-size: 3.09rem;
+}
+
+.mtdCardImg {
+    border: 3px solid var(--secondary-rapture_blue);
+    margin: 2rem 0 0 8rem;
+    height: 6.1rem;
+    border-radius: 64px;
+}
+
+.mtdCard {
+    margin: 3.6rem 0.55rem 1.2rem 1.3rem;
+    background-color: var(--secondary-sacramento_state_green);
+    height: 15.8rem;
+    width: 21.9rem;
+}
+
+.mtdCardName {
+    margin: 1rem 0 0.25rem 0;
+    font-size: 1.16rem;
+    text-align: center;
+    color: var(--secondary-rapture_blue);
+}
+
+.mtdCardName2 {
+    font-size: 1.05rem;
+}
+
+.mtdCardRole {
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--primary-white);
+}
+
+.mtdButtonBox {
+    margin: 2.05rem 0 0 9.25rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 64px;
+    background-color: var(--primary-light_coral);
+}
+
+.mtdButton {
+    font-size: 2.5rem;
+    border-radius: 64px;
+    margin: 1.2rem;
+}
