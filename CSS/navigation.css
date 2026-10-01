@@ -18,7 +18,7 @@ li>a:hover {
   color: var(--primary-light_coral);
 }
 
-header{
+header {
   max-width: 1440px;
 }
 
@@ -57,4 +57,15 @@ header {
 .nav-link li {
   display: inline-block;
   padding: 0 2.25rem 0 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 4.125rem 1.563rem 0 2.438rem;
+  }
+
+  .logo {
+    width: 11rem;
+    padding: 0 3rem 0 0;
+  }
 }
