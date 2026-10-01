@@ -1,9 +1,11 @@
-*{
+/* Global reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }
+
 /* Colors */
 :root {
     --primary-midnight_green: #014E56;
@@ -21,6 +23,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }
+
 /* Livic Font */
 .livvic-thin {
     font-family: "Livvic", sans-serif;

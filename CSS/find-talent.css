@@ -10,12 +10,12 @@ main {
     height: 579px;
 }
 
-.logo h1 {
+.TalentLogo h1 {
     color: var(--primary-white);
     font-size: 6.25rem;
 }
 
-.logo span {
+.TalentLogo span {
     color: var(--primary-light_coral);
 }
 
@@ -24,17 +24,17 @@ main {
     position: absolute;
     left: 830px;
     font-size: 1.125rem;
-    top: 213px;
+    top: 334px;
     width: 427.83px;
     word-spacing: 0px;
     line-height: 28px;
 
 }
 
-.logo {
+.TalentLogo {
     position: relative;
     margin-left: 165px;
-    top: 129px;
+    top: 128px;
     line-height: 1;
     width: 1275px;
 }
@@ -66,7 +66,7 @@ main {
     pointer-events: auto !important;
     z-index: 9999;
 }
-.logo {
+.TalentLogo {
     user-select: text !important;
     -webkit-user-select: text !important;
     pointer-events: auto !important;

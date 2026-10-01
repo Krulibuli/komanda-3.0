@@ -1,0 +1,75 @@
+@import url(style.css);
+
+.dss-con {
+    min-height: 745px;
+    text-align: center;
+    background-color: var(--secondary-deep_jungle_ocean);
+    color: var(--primary-white);
+}
+
+.dss-con {
+    background-image: url(../assets/pattern/bg-pattern-home-4-about-3.svg), url(../assets/pattern/bg-pattern-home-5.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.dss-title {
+    width: 1060px;
+    margin: auto;
+    padding-top: 8.75rem;
+    font-size: 47.5px;
+    line-height: 3rem;
+    letter-spacing: 0.0156rem;
+}
+
+.dss-boxes {
+    display: flex;
+    padding-top: 3.5rem;
+    margin: auto;
+    width: 1100px;
+    justify-content: space-between;
+    padding-left: .0625rem;
+}
+
+.dss-boxp {
+    padding-top: 2.3125rem;
+    background-image: url(../assets/icons/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.dss-box-p {
+    width: 339px;
+    font-size: 14.6px;
+    letter-spacing: 0.25px;
+    word-spacing: -0.5px;
+    line-height: 25px;
+    padding-bottom: 1.6875rem;
+}
+
+.dss-names {
+    font-size: 18px;
+    padding-bottom: .3125rem;
+}
+
+.dss-desc {
+    font-size: 13px;
+}
+
+.dss-blue {
+    color: var(--secondary-rapture_blue);
+}
+
+.dss-img {
+    margin-top: 1.9375rem;
+    width: 65px;
+    border-radius: 50px;
+    border: 2px solid var(--secondary-rapture_blue);
+}
+
+.dss-img-spec {
+    margin-top: 2.625rem;
+    width: 65px;
+    border-radius: 50px;
+    border: 2px solid var(--secondary-rapture_blue);
+}
