@@ -5,6 +5,7 @@
 main {
     max-width: 1440px;
 }
+
 .bestTalent {
     background-color: var(--primary-midnight_green);
     height: 579px;
@@ -19,7 +20,7 @@ main {
     color: var(--primary-light_coral);
 }
 
-.main-text{
+.main-text {
     color: var(--primary-white);
     position: absolute;
     left: 830px;
@@ -60,15 +61,85 @@ main {
     margin-left: 917px;
     bottom: -75px;
 }
-.main-text{
+
+.main-text {
     user-select: text !important;
     -webkit-user-select: text !important;
     pointer-events: auto !important;
     z-index: 9999;
 }
+
 .TalentLogo {
     user-select: text !important;
     -webkit-user-select: text !important;
     pointer-events: auto !important;
     z-index: 9999;
+}
+
+@media screen and (max-width: 375px) {
+
+    /* Jūsų kodas mobiliajai versijai */
+    .bestTalent {
+        background-color: var(--primary-midnight_green);
+        height: 399px;
+    }
+
+    .pattern-1 {
+        display: none;
+    }
+
+    .TalentLogo h1 {
+        color: var(--primary-white);
+        font-size: 2.4rem;
+    }
+
+    .TalentLogo {
+        position: relative;
+        top: 0px;
+        line-height: 1;
+        width: 1275px;
+        text-align: center;
+        margin-left: -457px;
+        padding: 10px;
+    }
+
+    .pattern-2 {
+        position: relative;
+        margin-left: -3px;
+        top: 206px;
+        left: 12px;
+    }
+
+    .pattern-2 img {
+        height: 96px;
+        width: 343px;
+
+    }
+
+    .main-text::before {
+        display: none;
+    }
+    .main-text {
+        position: absolute;
+        margin-left: 0; 
+        left: 50%;
+        transform: translateX(-50%); 
+        top: 249px;
+        width: 100%; 
+    }
+    .main-text .desktop-break:nth-of-type(3) {
+        display: none;
+    }
+    .main-text p {
+        text-align: center;
+        font-size: 0.8125rem;
+        line-height: 2.09;
+        letter-spacing: 0.66px;
+        word-spacing: 0.1px;
+        width: 307px; 
+        margin: 0 auto;
+    }
+    .main-text br{
+        display: none;
+    }
 }
