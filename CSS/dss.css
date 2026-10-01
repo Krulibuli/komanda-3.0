@@ -73,3 +73,12 @@
     border-radius: 50px;
     border: 2px solid var(--secondary-rapture_blue);
 }
+@media screen and (max-width: 768px) {
+.dss-title {
+    width: 480px;
+    padding-top: 7.85rem;
+    font-size: 31.5px;
+    line-height: 2rem;
+    letter-spacing: 0.0156rem;
+}
+}
