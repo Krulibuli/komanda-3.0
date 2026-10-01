@@ -13,14 +13,14 @@
 
 #mtdBoxImg1 {
     left: -6.25rem;
-    top: 0.1rem;
+    top: 0;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 }
 
 #mtdBoxImg2 {
-    top: 57rem;
-    left: 80.8rem;
+    top: 50.8rem;
+    left: 68.1rem;
     overflow: hidden;
     position: relative;
 }
