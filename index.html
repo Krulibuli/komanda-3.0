@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="CSS/find-talent.css">
+    <link rel="stylesheet" href="CSS/find-talent.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/navigation.css">
     <link rel="stylesheet" href="CSS/footer.css">
@@ -33,6 +33,25 @@
                 <li><a href="index.html">home</a></li>
                 <li><a href="PAGES/about.html">about</a></li>
             </ul>
+            <button class="hamburger-icon" id="hamburgerBtn" popovertarget="sidebar" aria-label="Open menu">
+                <img src="assets/icons/icon-hamburger.svg" alt="Hamburger menu icon">
+            </button>
+
+            <!-- #sidebar - for mobile device -->
+            <div id="sidebar" class="sidebar" popover>
+                <button class="close-icon" popovertarget="sidebar" popovertargetaction="hide" aria-label="Close menu">
+                    <img src="assets/icons/icon-close.svg" alt="Close menu icon">
+                </button>
+
+                <ul class="sidebar-menu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="PAGES/about.html">about</a></li>
+                    <li><a class="cta" href="PAGES/contacts.html">contact us</a></li>
+                </ul>
+
+                <img src="assets/pattern/bg-pattern-about-1-mobile-nav-1.svg"
+                    alt="Sidebar pattern mobile navigation icon" aria-hidden="true" class="sidebar-pattern">
+            </div>
         </nav>
 
         <a class="cta desktop-cta" href="PAGES/contacts.html">contact us</a>
@@ -48,15 +67,17 @@
                     <h1>Find the <br> best <span>talent</span></h1>
                 </div>
                 <div class="main-text livvic-semibold">
-                    <p>Finding the right people and building high <br class="desktop-break"> performing teams can be hard. Most companies <br class="desktop-break">
+                    <p>Finding the right people and building high <br class="desktop-break"> performing teams can be
+                        hard. Most companies <br class="desktop-break">
                         aren’t
-                        tapping into the abundance of global talent. <br class="desktop-break"> We’re about to change that.</p>
+                        tapping into the abundance of global talent. <br class="desktop-break"> We’re about to change
+                        that.</p>
                 </div>
                 <div class="pattern-1">
                     <img src="assets/pattern/bg-pattern-home-1.svg" alt="Home page pattern">
                 </div>
                 <div class="pattern-2">
-                    <img  src="assets/pattern/bg-pattern-home-2.svg" alt="Home page pattern">
+                    <img src="assets/pattern/bg-pattern-home-2.svg" alt="Home page pattern">
                 </div>
             </div>
         </section>
@@ -190,4 +211,5 @@
             </div>
         </div>
     </footer>
+    <script src="../JS/script.js"></script>
 </body>

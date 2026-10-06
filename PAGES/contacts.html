@@ -28,6 +28,25 @@
                 <li><a href="../index.html">home</a></li>
                 <li><a href="../PAGES/about.html">about</a></li>
             </ul>
+            <button class="hamburger-icon" id="hamburgerBtn" popovertarget="sidebar" aria-label="Open menu">
+                <img src="../assets/icons/icon-hamburger.svg" alt="Hamburger menu icon">
+            </button>
+
+            <!-- #sidebar - for mobile device -->
+            <div id="sidebar" class="sidebar" popover>
+                <button class="close-icon" popovertarget="sidebar" popovertargetaction="hide" aria-label="Close menu">
+                    <img src="../assets/icons/icon-close.svg" alt="Close menu icon">
+                </button>
+
+                <ul class="sidebar-menu">
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../PAGES/about.html">about</a></li>
+                    <li><a class="cta" href="../PAGES/contacts.html">contact us</a></li>
+                </ul>
+
+                <img src="../assets/pattern/bg-pattern-about-1-mobile-nav-1.svg"
+                    alt="Sidebar pattern mobile navigation icon" aria-hidden="true" class="sidebar-pattern">
+            </div>
         </nav>
 
         <a class="cta desktop-cta" href="contacts.html">contact us</a>
@@ -59,6 +78,7 @@
             </div>
         </div>
     </footer>
+    <script src="../JS/script.js"></script>
 </body>
 
 </html>
