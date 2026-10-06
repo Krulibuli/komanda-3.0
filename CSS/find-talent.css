@@ -1,0 +1,147 @@
+/* Scrum-5 */
+@import url(style.css);
+
+
+main {
+    max-width: 1440px;
+}
+
+.bestTalent {
+    background-color: var(--primary-midnight_green);
+    height: 579px;
+}
+
+.TalentLogo h1 {
+    color: var(--primary-white);
+    font-size: 6.25rem;
+}
+
+.TalentLogo span {
+    color: var(--primary-light_coral);
+}
+
+.main-text {
+    color: var(--primary-white);
+    position: absolute;
+    left: 830px;
+    font-size: 1.125rem;
+    top: 334px;
+    width: 427.83px;
+    word-spacing: 0px;
+    line-height: 28px;
+
+}
+
+.TalentLogo {
+    position: relative;
+    margin-left: 165px;
+    top: 128px;
+    line-height: 1;
+    width: 1275px;
+}
+
+.main-text::before {
+    content: "";
+    position: absolute;
+    top: -84px;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--secondary-rapture_blue);
+}
+
+.pattern-1 {
+    position: relative;
+    margin-left: -100px;
+    bottom: 71px;
+}
+
+.pattern-2 {
+    position: relative;
+    margin-left: 917px;
+    bottom: -75px;
+}
+
+.main-text {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    pointer-events: auto !important;
+    z-index: 9999;
+}
+
+.TalentLogo {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    pointer-events: auto !important;
+    z-index: 9999;
+}
+
+@media screen and (max-width: 375px) {
+    .bestTalent {
+        background-color: var(--primary-midnight_green);
+        height: 26.375rem;
+    }
+
+    .pattern-1 {
+        display: none;
+    }
+
+    .TalentLogo h1 {
+        color: var(--primary-white);
+        font-size: 2.5rem;
+    }
+
+    .TalentLogo {
+        position: relative;
+        top: 0.313rem;
+        line-height: 1;
+        width: 79.688rem;
+        text-align: center;
+        margin-left: -28.125rem;
+        padding: 0.625rem;
+    }
+
+    .pattern-2 {
+        position: relative;
+        margin-left: -0.25rem;
+        top: 13.875rem;
+        left: 0.813rem;
+    }
+
+    .pattern-2 img {
+        height: 6.25rem;
+        width: 22.375rem;
+
+    }
+
+    .main-text::before {
+        display: none;
+    }
+
+    .main-text {
+        position: absolute;
+        margin-left: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 16.188rem;
+        width: 100%;
+    }
+
+    .main-text .desktop-break:nth-of-type(3) {
+        display: none;
+    }
+
+    .main-text p {
+        text-align: center;
+        font-size: 0.938rem;
+        line-height: 1.75rem;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+        width: 20.313rem;
+        margin: 0 auto;
+    }
+
+    .main-text br {
+        display: none;
+    }
+}
