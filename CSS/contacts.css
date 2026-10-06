@@ -13,15 +13,6 @@
     background-color: var(--primary-midnight_green);
 }
 
-.contacts::before,
-.contacts::after {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    background-repeat: no-repeat;
-    pointer-events: none;
-}
-
 .information {
     display: flex;
     flex-direction: column;
