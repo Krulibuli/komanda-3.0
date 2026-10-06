@@ -43,3 +43,56 @@
     background-color: var(--secondary-dark_green);
     color: var(--primary-white);
 }
+
+
+/* mobile (365px) */
+
+@media only screen and (max-width: 375px) {
+
+    .contactUsBox {
+        background-color: var(--primary-light_coral);
+        height: 18.8rem;
+        display: flex;
+        width: 23.44rem;
+    }
+
+    .contactUsBox img {
+        margin: 11.17rem 0 0 0;
+        height: 9.1rem;
+    }
+
+    .contactUsText {
+        display: flex;
+        letter-spacing: -0.01rem;
+        line-height: 2rem;
+        margin: 5.1rem 0 0 -8.45rem;
+        color: var(--secondary-dark_green);
+
+    }
+
+    .contactUsText p {
+        font-size: 2rem;
+        text-align: center;
+        width: 15rem;
+    }
+
+    .contactUsBox a {
+        padding-left: 1.9rem;
+        text-decoration: none;
+        font-size: 1.15rem;
+        border-radius: 64px;
+        height: 3.09rem;
+        width: 9.5rem;
+        margin: 5.5rem 0 0 -12.25rem;
+        color: var(--secondary-dark_green);
+        border: 2px solid var(--secondary-dark_green);
+    }
+
+    .contactUsBox a:hover {
+        transition: 0.3s;
+        cursor: pointer;
+        background-color: var(--secondary-dark_green);
+        color: var(--primary-white);
+    }
+
+}
