@@ -76,10 +76,10 @@ main {
     z-index: 9999;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 375px) {
     .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 399px;
+        height: 26.375rem;
     }
 
     .pattern-1 {
@@ -88,29 +88,29 @@ main {
 
     .TalentLogo h1 {
         color: var(--primary-white);
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
 
     .TalentLogo {
         position: relative;
-        top: 0px;
+        top: 0.313rem;
         line-height: 1;
-        width: 1275px;
+        width: 79.688rem;
         text-align: center;
-        margin-left: -457px;
-        padding: 10px;
+        margin-left: -28.125rem;
+        padding: 0.625rem;
     }
 
     .pattern-2 {
         position: relative;
-        margin-left: -3px;
-        top: 206px;
-        left: 12px;
+        margin-left: -0.25rem;
+        top: 13.875rem;
+        left: 0.813rem;
     }
 
     .pattern-2 img {
-        height: 96px;
-        width: 343px;
+        height: 6.25rem;
+        width: 22.375rem;
 
     }
 
@@ -120,10 +120,10 @@ main {
 
     .main-text {
         position: absolute;
-        margin-left: 0;
+        margin-left: 0rem;
         left: 50%;
         transform: translateX(-50%);
-        top: 249px;
+        top: 16.188rem;
         width: 100%;
     }
 
@@ -133,75 +133,11 @@ main {
 
     .main-text p {
         text-align: center;
-        font-size: 0.8125rem;
-        line-height: 2.09;
-        letter-spacing: 0.66px;
-        word-spacing: 0.1px;
-        width: 307px;
-        margin: 0 auto;
-    }
-
-    .main-text br {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .pattern-1 {
-        display: none;
-    }
-
-    .main-text::before {
-        display: none;
-    }
-        .bestTalent {
-        background-color: var(--primary-midnight_green);
-        height: 558px;
-    }
-        .TalentLogo {
-        position: relative;
-        top: 71px;
-        line-height: 0.87;
-        width: 1275px;
-        text-align: center;
-        margin-left: -249.3px;
-        padding: 10px;
-    }
-        .TalentLogo h1 {
-        color: var(--primary-white);
-        font-size: 4rem;
-    }
-        .pattern-2 {
-        position: relative;
-        margin-left: -3px;
-        top: 326px;
-        left: 209px;
-    }
-
-    .pattern-2 img {
-        height: 101.1px;
-        width: 360px;
-    }
-        .main-text {
-        position: absolute;
-        margin-left: 1px;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 362px;
-        width: 100%;
-    }
-
-    .main-text .desktop-break:nth-of-type(3) {
-        display: none;
-    }
-
-    .main-text p {
-        text-align: center;
-        font-size: 13.6px;
-        line-height: 2.1;
-        letter-spacing: 0.671px;
-        word-spacing: 0.1px;
-        width: 460px;
+        font-size: 0.938rem;
+        line-height: 1.75rem;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+        width: 20.313rem;
         margin: 0 auto;
     }
 
