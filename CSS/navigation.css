@@ -38,6 +38,7 @@ header {
   border-radius: 3.125rem;
   padding: 10px 31px;
 }
+
 .cta:hover {
   background-color: var(--primary-white);
   color: var(--primary-midnight_green);
@@ -55,9 +56,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-    header{
-        padding: 64px 38px;
-    }
+  header {
+    padding: 4.05rem 2.5rem 0 2.375rem;
+  }
 
   .logo {
     width: 11rem;
