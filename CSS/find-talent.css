@@ -79,7 +79,7 @@ main {
 @media screen and (max-width: 375px) {
     .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 422px;
+        height: 26.375rem;
     }
 
     .pattern-1 {
@@ -93,24 +93,24 @@ main {
 
     .TalentLogo {
         position: relative;
-        top: 5px;
+        top: 0.313rem;
         line-height: 1;
-        width: 1275px;
+        width: 79.688rem;
         text-align: center;
-        margin-left: -450px;
-        padding: 10px;
+        margin-left: -28.125rem;
+        padding: 0.625rem;
     }
 
     .pattern-2 {
         position: relative;
-        margin-left: -4px;
-        top: 222px;
-        left: 13px;
+        margin-left: -0.25rem;
+        top: 13.875rem;
+        left: 0.813rem;
     }
 
     .pattern-2 img {
-        height: 100px;
-        width: 358px;
+        height: 6.25rem;
+        width: 22.375rem;
 
     }
 
@@ -120,10 +120,10 @@ main {
 
     .main-text {
         position: absolute;
-        margin-left: 0px;
+        margin-left: 0rem;
         left: 50%;
         transform: translateX(-50%);
-        top: 259px;
+        top: 16.188rem;
         width: 100%;
     }
 
@@ -133,11 +133,11 @@ main {
 
     .main-text p {
         text-align: center;
-        font-size: 15px;
-        line-height: 28px;
-        letter-spacing: 0px;
-        word-spacing: 0px;
-        width: 325px;
+        font-size: 0.938rem;
+        line-height: 1.75rem;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+        width: 20.313rem;
         margin: 0 auto;
     }
 
