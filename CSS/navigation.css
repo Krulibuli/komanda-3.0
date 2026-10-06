@@ -1,7 +1,6 @@
 @import url(style.css);
 
 /* NAVIGATION */
-
 ul {
   list-style: none;
 }
@@ -18,11 +17,8 @@ li>a:hover {
   color: var(--primary-light_coral);
 }
 
-header{
-  max-width: 1440px;
-}
-
 header {
+  max-width: 1440px;
   padding: 4.563rem 10.313rem 0 10.313rem;
   display: flex;
   align-items: center;
@@ -36,11 +32,11 @@ header {
 }
 
 .cta {
-  margin-left: auto;
   display: inline-block;
+  margin-left: auto;
   border: 2px solid var(--primary-white);
   border-radius: 3.125rem;
-  padding: 11px 31px;
+  padding: 10px 31px;
 }
 
 .cta:hover {
@@ -57,4 +53,15 @@ header {
 .nav-link li {
   display: inline-block;
   padding: 0 2.25rem 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 4.05rem 2.5rem 0 2.375rem;
+  }
+
+  .logo {
+    width: 11rem;
+    padding: 0 3rem 0 0;
+  }
 }
