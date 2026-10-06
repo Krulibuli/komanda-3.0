@@ -76,7 +76,7 @@ main {
     z-index: 9999;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 375px) {
     .bestTalent {
         background-color: var(--primary-midnight_green);
         height: 422px;
