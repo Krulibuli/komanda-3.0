@@ -79,7 +79,7 @@ main {
 @media screen and (max-width: 767px) {
     .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 399px;
+        height: 422px;
     }
 
     .pattern-1 {
@@ -88,29 +88,29 @@ main {
 
     .TalentLogo h1 {
         color: var(--primary-white);
-        font-size: 2.4rem;
+        font-size: 2.5rem;
     }
 
     .TalentLogo {
         position: relative;
-        top: 0px;
+        top: 5px;
         line-height: 1;
         width: 1275px;
         text-align: center;
-        margin-left: -457px;
+        margin-left: -450px;
         padding: 10px;
     }
 
     .pattern-2 {
         position: relative;
-        margin-left: -3px;
-        top: 206px;
-        left: 12px;
+        margin-left: -4px;
+        top: 222px;
+        left: 13px;
     }
 
     .pattern-2 img {
-        height: 96px;
-        width: 343px;
+        height: 100px;
+        width: 358px;
 
     }
 
@@ -120,10 +120,10 @@ main {
 
     .main-text {
         position: absolute;
-        margin-left: 0;
+        margin-left: 0px;
         left: 50%;
         transform: translateX(-50%);
-        top: 249px;
+        top: 259px;
         width: 100%;
     }
 
@@ -133,75 +133,11 @@ main {
 
     .main-text p {
         text-align: center;
-        font-size: 0.8125rem;
-        line-height: 2.09;
-        letter-spacing: 0.66px;
-        word-spacing: 0.1px;
-        width: 307px;
-        margin: 0 auto;
-    }
-
-    .main-text br {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .pattern-1 {
-        display: none;
-    }
-
-    .main-text::before {
-        display: none;
-    }
-        .bestTalent {
-        background-color: var(--primary-midnight_green);
-        height: 558px;
-    }
-        .TalentLogo {
-        position: relative;
-        top: 71px;
-        line-height: 0.87;
-        width: 1275px;
-        text-align: center;
-        margin-left: -249.3px;
-        padding: 10px;
-    }
-        .TalentLogo h1 {
-        color: var(--primary-white);
-        font-size: 4rem;
-    }
-        .pattern-2 {
-        position: relative;
-        margin-left: -3px;
-        top: 326px;
-        left: 209px;
-    }
-
-    .pattern-2 img {
-        height: 101.1px;
-        width: 360px;
-    }
-        .main-text {
-        position: absolute;
-        margin-left: 1px;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 362px;
-        width: 100%;
-    }
-
-    .main-text .desktop-break:nth-of-type(3) {
-        display: none;
-    }
-
-    .main-text p {
-        text-align: center;
-        font-size: 13.6px;
-        line-height: 2.1;
-        letter-spacing: 0.671px;
-        word-spacing: 0.1px;
-        width: 460px;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        width: 325px;
         margin: 0 auto;
     }
 
