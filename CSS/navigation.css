@@ -61,6 +61,7 @@ header {
   display: none;
   background: none;
   border: none;
+  outline: none;
   padding: 0;
   cursor: pointer;
 }
@@ -139,7 +140,9 @@ header {
   position: relative;
   z-index: 2;
 }
-
+.sidebar-menu a{
+  margin-top: 0.25rem;
+}
 .sidebar-menu .cta {
   margin-left: 0;
   width: 100%;
