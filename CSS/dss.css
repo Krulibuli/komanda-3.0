@@ -76,51 +76,29 @@
 @media screen and (max-width: 768px) {
 .dss-con {
     min-height: 1199px;
-    text-align: center;
-    background-color: var(--secondary-deep_jungle_ocean);
-    color: var(--primary-white);
 }
 .dss-title {
     width: 480px;
     padding-top: 6.25rem;
     font-size: 31.5px;
     line-height: 32px;
-    letter-spacing: 0.3px;
-    word-spacing: 0px;
-    padding-left: 0rem;
 }
 .dss-t-c {
     margin-left: -0.5rem;
 }
-.dss-boxp {
-    padding-top: 2.3125rem;
-    background-image: url(../assets/icons/icon-quotes.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-}
 .dss-boxes {
-    display: flex;
     flex-direction: column;
     padding-top: 3rem;
-    margin: auto;
     width: 565px;
-    justify-content: space-between;
-    padding-left: .0625rem;
+    padding-left: 0px;
 }
 .dss-box-p {
-    width: 565px;
+    width: 567px;
     height: 88px;
-    font-size: 14.6px;
-    letter-spacing: 0.25px;
-    word-spacing: -0.4px;
-    line-height: 24.5px;
-    padding-bottom: 10px;
+    padding-bottom: 93px;
 }
-.dss-img {
-    margin-top: 20px;
-    width: 65px;
-    border-radius: 50px;
-    border: 2px solid var(--secondary-rapture_blue);
-    margin-bottom: 20px;
+.dss-img, .dss-img-spec {
+    margin-top: 15px;
+    margin-bottom: 43px;
 }
 }
