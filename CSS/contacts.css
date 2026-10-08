@@ -1,0 +1,168 @@
+@import url(style.css);
+
+/* Contacts area */
+
+.contacts {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 29.8125rem 33.75rem;
+    column-gap: 5.9375rem;
+    width: 100%;
+    max-width: 90rem;
+    min-height: 41.75rem;
+    padding: 8.125rem 10.3125rem 6.25rem;
+    background-color: var(--primary-midnight_green);
+}
+
+/* Patterns */
+
+.contacts::before,
+.contacts::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.contacts::before {
+    top: 7.75rem;
+    left: -6.25rem;
+    width: 12.5rem;
+    height: 12.5rem;
+    background-image: url("../assets/pattern/bg-pattern-about-2-contact-1.svg");
+}
+
+.contacts::after {
+    right: -6.25rem;
+    bottom: 0;
+    width: 12.5625rem;
+    height: 14.0625rem;
+    background-image: url("../assets/pattern/bg-pattern-contact-2.svg");
+}
+
+.contacts > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.contacts h1 {
+    min-width: 0;
+    min-height: 6.25rem;
+    color: var(--primary-white);
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.ask-us-about > h2 {
+    min-width: 0;
+    min-height: 4rem;
+    margin-top: 0.625rem;
+    color: var(--primary-light_coral);
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.aua-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+}
+
+.aua1,
+.aua2,
+.aua3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 4.5rem;
+}
+
+.aua-questions img {
+    flex: 0 0 4.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.aua-questions .aua {
+    margin-left: 1.4375rem;
+}
+
+.aua-questions h2 {
+    color: var(--primary-white);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.contact-form {
+    width: 33.75rem;
+    margin-top: -2.125rem;
+    font-family: "Livvic", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.0075rem;
+}
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    color: var(--primary-white);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--primary-white);
+    border-radius: 0;
+    outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+    opacity: 1;
+}
+
+#name,
+#email,
+#cName,
+#title {
+    width: 100%;
+    height: 2.625rem;
+    margin-top: 1.5rem;
+    padding: 0 1rem 0.8125rem;
+    font: inherit;
+    font-size: 0.9375rem;
+}
+
+#message {
+    width: 100%;
+    height: 5.1875rem;
+    margin-top: 1.5rem;
+    padding: 0 1rem 1.25rem;
+    resize: none;
+    font: inherit;
+    font-size: 0.9375rem;
+}
+
+#button {
+    margin-top: 1.3125rem;
+    padding: 0.75rem 1.9375rem;
+    border: 0;
+    border-radius: 3.125rem;
+    background-color: var(--primary-white);
+    color: var(--primary-midnight_green);
+    font: inherit;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
