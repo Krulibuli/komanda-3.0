@@ -77,9 +77,11 @@ main {
 }
 
 @media screen and (max-width: 375px) {
+
+    /* BestTalent section Mobile media version */
     .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 26.375rem;
+        height: 27.125rem;
     }
 
     .pattern-1 {
@@ -93,7 +95,7 @@ main {
 
     .TalentLogo {
         position: relative;
-        top: 0.313rem;
+        top: 1.063rem;
         line-height: 1;
         width: 79.688rem;
         text-align: center;
@@ -104,7 +106,7 @@ main {
     .pattern-2 {
         position: relative;
         margin-left: -0.25rem;
-        top: 13.875rem;
+        top: 14.625rem;
         left: 0.813rem;
     }
 
@@ -138,6 +140,80 @@ main {
         letter-spacing: 0rem;
         word-spacing: 0rem;
         width: 20.313rem;
+        margin: 0 auto;
+    }
+
+    .main-text br {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* BestTalent section Tablet media version */
+    .pattern-1 {
+        display: none;
+    }
+
+    .main-text::before {
+        display: none;
+    }
+
+    .bestTalent {
+        background-color: var(--primary-midnight_green);
+        height: 36.75rem;
+    }
+
+    .TalentLogo {
+        position: relative;
+        top: 6.375rem;
+        line-height: 3.5rem;
+        width: 100%;
+        text-align: center;
+        margin-left: 0.188rem;
+        padding: 0.625rem;
+    }
+
+    .TalentLogo h1 {
+        color: var(--primary-white);
+        font-size: 4rem;
+    }
+
+    .pattern-2 {
+        position: relative;
+        top: 22.188rem;
+        margin: 0 auto;
+        width: 22.375rem;
+        max-width: 100%;
+        left: 0;
+    }
+
+    .pattern-2 img {
+        display: block;
+        height: 6.313rem;
+        width: 100%;
+    }
+
+    .main-text {
+        position: absolute;
+        margin-left: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 22.563rem;
+        width: 100%;
+    }
+
+    .main-text .desktop-break:nth-of-type(3) {
+        display: none;
+    }
+
+    .main-text p {
+        text-align: center;
+        font-size: 0.938rem;
+        line-height: 1.75rem;
+        letter-spacing: 0rem;
+        word-spacing: 0.006rem;
+        width: 28.75rem;
         margin: 0 auto;
     }
 
