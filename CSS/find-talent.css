@@ -157,15 +157,15 @@ main {
     }
         .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 34.688rem;
+        height: 36.75rem;
     }
         .TalentLogo {
         position: relative;
-        top: 4.313rem;
+        top: 6.375rem;
         line-height: 3.5rem;
         width: 79.688rem;
         text-align: center;
-        margin-left: -15.625rem;
+        margin-left: -15.688rem;
         padding: 0.625rem;
     }
         .TalentLogo h1 {
@@ -175,7 +175,7 @@ main {
         .pattern-2 {
         position: relative;
         margin-left: -0.063rem;
-        top: 20.188rem;
+        top: 22.188rem;
         left: 12.938rem;
     }
  
