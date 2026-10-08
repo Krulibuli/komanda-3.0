@@ -55,6 +55,109 @@ header {
   padding: 0 2.25rem 0 0;
 }
 
+/* Mobile hamburger - hide on DESKTOP, show up on MOBILE size device <=768px */
+
+.hamburger-icon {
+  display: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.hamburger-icon img {
+  width: 20px;
+  height: 17px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  height: 667px;
+  width: 255px;
+  border: none;
+  background-color: var(--secondary-police_blue);
+  padding: 56px 24px 0 48px;
+  overflow: hidden;
+
+  transform: translateX(100%);
+  transition: transform 400ms ease-in-out,
+    overlay 400ms allow-discrete,
+    display 400ms allow-discrete;
+}
+
+/* ===== OPEN SIDEBAR ===== */
+
+.sidebar:popover-open {
+  transform: translateX(0);
+}
+
+/* ===== OPEN-CLOSE ANIMATION ===== */
+
+@starting-style {
+  .sidebar:popover-open {
+    transform: translateX(100%);
+  }
+}
+
+.sidebar::backdrop {
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  transition: opacity 400ms ease-in-out,
+    overlay 400ms allow-discrete,
+    display 400ms allow-discrete;
+}
+
+.sidebar:popover-open::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  .sidebar:popover-open::backdrop {
+    opacity: 0;
+  }
+}
+
+/* ===== OPEN-CLOSE ANIMATION ===== */
+
+.close-icon {
+  display: block;
+  margin: 0 0 40px auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  position: relative;
+  z-index: 2;
+}
+.sidebar-menu a{
+  margin-top: 0.25rem;
+}
+.sidebar-menu .cta {
+  margin-left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-pattern {
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* TABLET */
 @media screen and (max-width: 768px) {
   header {
     padding: 4.05rem 2.5rem 0 2.375rem;
@@ -63,5 +166,25 @@ header {
   .logo {
     width: 11rem;
     padding: 0 3rem 0 0;
+  }
+}
+/* MOBILE */
+@media screen and (max-width: 376px) {
+  .sidebar {
+    display: block;
+  }
+
+  header {
+    padding: 48px 24px;
+    justify-content: space-between;
+  }
+
+  .nav-link,
+  .desktop-cta {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: inline-block;
   }
 }
