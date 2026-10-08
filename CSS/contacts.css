@@ -19,6 +19,7 @@
 
 .contacts::before,
 .contacts::after {
+    content: "";
     position: absolute;
     z-index: 0;
     background-repeat: no-repeat;
