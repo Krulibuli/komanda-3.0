@@ -1,7 +1,7 @@
 @import url(style.css);
 
 .mtdBox {
-    height: 63.15rem;
+    height: 62.45rem;
     background-color: var(--secondary-deep_jungle_ocean);
 }
 
@@ -19,8 +19,9 @@
 }
 
 #mtdBoxImg2 {
-    top: 50.8rem;
-    left: 68.1rem;
+    top: 50rem;
+    left: 68.14rem;
+    height: 6.19rem;
     overflow: hidden;
     position: relative;
 }
