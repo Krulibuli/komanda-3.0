@@ -79,7 +79,7 @@ main {
 @media screen and (max-width: 375px) {
     .bestTalent {
         background-color: var(--primary-midnight_green);
-        height: 26.375rem;
+        height: 27.125rem;
     }
 
     .pattern-1 {
@@ -93,7 +93,7 @@ main {
 
     .TalentLogo {
         position: relative;
-        top: 0.313rem;
+        top: 1.063rem;
         line-height: 1;
         width: 79.688rem;
         text-align: center;
@@ -104,7 +104,7 @@ main {
     .pattern-2 {
         position: relative;
         margin-left: -0.25rem;
-        top: 13.875rem;
+        top: 14.625rem;
         left: 0.813rem;
     }
 
