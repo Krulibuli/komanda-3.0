@@ -10,14 +10,13 @@ footer {
 footer {
     background-color: var(--secondary-dark_green);
     height: 12.25rem;
-    position: absolute;
     width: 100rem;
 }
 
 .footerMain {
     display: flex;
-    margin: 3rem 10.25rem;
-    height: 6.25rem;
+    padding: 3rem 10.25rem 0;
+    height: 9rem;
     font-size: 0.938rem;
     line-height: 1.563rem;
 }
@@ -38,19 +37,19 @@ footer {
 }
 
 .footerCol1 a:first-child {
-    margin-right: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 /* Footer col 2 */
 .footerCol2 {
-    margin: 0 0 0 7.813rem;
+    padding: 0 0 0 7.813rem;
     color: var(--primary-white);
     opacity: 0.6;
 }
 
 /* Footer col 3 */
 .footerCol3 {
-    margin-left: auto;
+    padding-left: 25.5rem;
     color: var(--primary-white);
 }
 
@@ -67,4 +66,92 @@ footer {
 
 .footerIcon {
     margin-left: 16px;
+}
+
+/* mobile (375px) */
+
+@media only screen and (max-width: 375px) {
+    footer {
+        background-color: var(--secondary-dark_green);
+        height: 27rem;
+        width: 23.44rem;
+    }
+
+    .footerMain {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        height: 9rem;
+        font-size: 0.938rem;
+        line-height: 1.563rem;
+    }
+
+    #footerLogo {
+        width: 6rem;
+        margin: 4.1rem .8rem 0 .8rem;
+    }
+
+    .contactUsImg {
+        width: auto;
+    }
+
+    /* Footer col 1 */
+    .footerCol1 {
+        letter-spacing: 0rem;
+        font-size: 0.92rem;
+        line-height: 2.6rem;
+        margin: auto;
+        width: auto;
+        color: var(--primary-white);
+    }
+
+    .footerCol1Links {
+        width: auto;
+    }
+
+    .footerCol1 a {
+        margin: 0;
+        color: var(--primary-white);
+        text-decoration: none;
+    }
+
+    .footerCol1 a:first-child {
+        padding-left: 0.5rem;
+        padding-right: 1.4rem;
+    }
+
+    /* Footer col 2 */
+    .footerCol2 {
+        text-align: center;
+        padding: 1rem 0 0 0;
+        color: var(--primary-white);
+        opacity: 0.6;
+    }
+
+    /* Footer col 3 */
+    .footerCol3 {
+        padding: 2.5rem 0 0 0;
+        color: var(--primary-white);
+    }
+
+    .footerCol3 p {
+        font-size: 0.9rem;
+        letter-spacing: 0.018rem;
+        opacity: 0.6;
+        margin: 1rem 0 0 3.8rem;
+    }
+
+    .footerIcons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerIcons :last-child {
+        height: 1.3rem;
+    }
+
+    .footerIcon {
+        margin: 0rem 0.5rem;
+    }
+
 }
