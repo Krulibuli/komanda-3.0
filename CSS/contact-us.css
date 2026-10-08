@@ -54,18 +54,18 @@
         height: 18.8rem;
         display: flex;
         width: 23.44rem;
+        overflow: hidden;
     }
 
     .contactUsBox img {
-        margin: 11.17rem 0 0 0;
-        height: 9.1rem;
+        margin: 11.25rem 0 0 0;
+        height: 9em;
     }
-
     .contactUsText {
         display: flex;
         letter-spacing: -0.01rem;
         line-height: 2rem;
-        margin: 5.1rem 0 0 -8.45rem;
+        margin: 5.2rem 0 0 -8.35rem;
         color: var(--secondary-dark_green);
 
     }
