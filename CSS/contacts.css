@@ -166,3 +166,40 @@
     font-size: 1.125rem;
     cursor: pointer;
 }
+
+/* tablet media */
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        grid-template-columns: minmax(0, 33.75rem);
+        justify-content: center;
+        row-gap: 2.375rem;
+        min-height: 0;
+        padding: 6.5rem 0 7.125rem;
+    }
+
+    .contacts::before {
+        top: 6.5rem;
+    }
+
+    .contacts h1,
+    .ask-us-about > h2 {
+        text-align: center;
+    }
+
+    .contacts h1 {
+        min-height: 5rem;
+    }
+
+    .ask-us-about > h2 {
+        min-height: 3.6875rem;
+    }
+
+    .aua-questions {
+        padding-left: 0.75rem;
+    }
+
+    .contact-form {
+        margin-top: 0;
+    }
+}
