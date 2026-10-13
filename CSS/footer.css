@@ -68,6 +68,93 @@ footer {
     margin-left: 16px;
 }
 
+/* table 768px */
+
+@media only screen and (max-width: 768px) {
+    footer {
+        background-color: var(--secondary-dark_green);
+        height: 16.9rem;
+        width: 47.97rem;
+    }
+
+    .footerMain {
+        display: inline-block;
+        padding: 0;
+        height: 9rem;
+        font-size: 0.938rem;
+        line-height: 1.563rem;
+    }
+
+    #footerLogo {
+        width: 6rem;
+        margin: 4.1rem .8rem 0 .8rem;
+    }
+
+    .contactUsImg {
+        width: auto;
+    }
+
+    /* Footer col 1 */
+    .footerCol1 {
+        letter-spacing: 0rem;
+        font-size: 0.92rem;
+        line-height: 2.6rem;
+        margin-left: 1.7rem;
+        width: auto;
+        color: var(--primary-white);
+    }
+
+    .footerCol1Links {
+        width: auto;
+    }
+
+    .footerCol1 a {
+        margin: 0;
+        color: var(--primary-white);
+        text-decoration: none;
+    }
+
+    .footerCol1 a:first-child {
+        padding-left: 0.5rem;
+        padding-right: 1.4rem;
+    }
+
+    /* Footer col 2 */
+    .footerCol2 {
+        text-align: center;
+        padding: 1rem 0 0 0;
+        color: var(--primary-white);
+        opacity: 0.6;
+    }
+
+    /* Footer col 3 */
+    .footerCol3 {
+        padding: 2.5rem 0 0 0;
+        color: var(--primary-white);
+    }
+
+    .footerCol3 p {
+        font-size: 0.9rem;
+        letter-spacing: 0.018rem;
+        opacity: 0.6;
+        margin: 1rem 0 0 3.8rem;
+    }
+
+    .footerIcons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerIcons :last-child {
+        height: 1.3rem;
+    }
+
+    .footerIcon {
+        margin: 0rem 0.5rem;
+    }
+
+}
+
 /* mobile (375px) */
 
 @media only screen and (max-width: 375px) {
