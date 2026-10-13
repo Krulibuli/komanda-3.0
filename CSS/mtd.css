@@ -77,6 +77,47 @@
     margin: 1.2rem;
 }
 
+/* tablet (768px) */
+
+@media only screen and (max-width: 768px) {
+
+    .mtdBox {
+        height: 76.25rem;
+    }
+
+    .mtdInfoBox {
+        margin: 2.66rem 0 0 6.06rem;
+    }
+
+    #mtdBoxImg2 {
+        top: 63.69rem;
+        left: 26.06rem;
+    }
+
+    #mtdBoxText {
+        margin: -6.7rem 0 0 0;
+        font-size: 2.05rem;
+    }
+
+    .mtdCardImg {
+        margin: 1.94rem 0 0 5.69rem;
+    }
+
+    .mtdCard {
+        margin: 0 0.69rem 4.75rem 0;
+        width: 17.5rem;
+    }
+
+    .mtdCardName {
+        margin: 0.75rem 0 0.25rem 0;
+    }
+
+    .mtdButtonBox {
+        margin: 2.05rem 0 0 7.06rem;
+    }
+
+}
+
 /* mobile (365px) */
 
 @media only screen and (max-width: 375px) {
