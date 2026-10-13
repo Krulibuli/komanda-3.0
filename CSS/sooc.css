@@ -54,3 +54,59 @@
     height: 2.9rem;
     margin: -0.3rem 0 4rem 4.95rem;
 }
+
+@media (max-width: 375px) {
+.soocBox {
+    height: 632px;
+    width: 375px;
+}
+
+.soocBox p {
+    font-size: 2.0625rem;
+}
+
+.soocImgBox {
+    display: flex;
+    flex-direction: column;
+    margin: 3.8rem 0 0 1.4rem;
+}
+
+
+#soocText {
+    padding-top: 5.12rem;
+}
+#soocBoxImg {
+    margin-left: -6.3rem;
+    margin-top: -6.3rem;
+}
+
+#soocImg1 {
+    margin: -0.0625rem 0 0 5.625rem;
+    height: 1.5rem;
+    width: 9.25rem;
+}
+
+#soocImg2 {
+    width: 10.25rem;
+    height: 1.4375rem;
+    margin: 3.4375rem 0 3.1875rem 5.2125rem;
+}
+
+#soocImg3 {
+    width: 10rem;
+    height: 1.5625rem;
+    margin: .2875rem 0 3.375rem 5.3125rem;
+}
+
+#soocImg4 {
+    width: 9.375rem;
+    height: 1.625rem;
+    margin: .125rem 0 3.75rem 5.625rem;
+}
+
+#soocImg5 {
+    width: 5.4375rem;
+    height: 2.625rem;
+    margin: -0.3rem 0 4rem 7.5625rem;
+}
+}
